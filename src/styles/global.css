@@ -21,6 +21,15 @@ h1 {
 }
 
 /* nav styles */
+header {
+  background-color: #736dee;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+}
 
 .menu {
   background-color: #0d0950;
@@ -59,9 +68,8 @@ h1 {
 
 @media screen and (min-width: 636px) {
   .nav-links {
+    display: inline;
     margin-left: 5em;
-    display: block;
-    position: static;
     width: auto;
     background: none;
   }
